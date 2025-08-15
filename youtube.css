@@ -172,3 +172,16 @@ nav {
 .video-stats {
   font-size: 14px;
 }
+.video-stamp {
+  position: relative;
+}
+.video-time {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  border-radius: 6px;
+  font-size: small;
+  padding: 4px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
