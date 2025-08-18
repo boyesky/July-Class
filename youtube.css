@@ -136,7 +136,7 @@ nav {
 }
 
 .video-image {
-  width: 400px;
+  width: 350px;
   border-radius: 20px;
 }
 .video-image:hover {
@@ -186,5 +186,5 @@ nav {
   padding: 4px;
   position: absolute;
   bottom: 15px;
-  right: 32px;
+  right: 85px;
 }
