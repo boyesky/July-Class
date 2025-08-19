@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url(./assets/appclick.jpg); */
+}
+.whole {
+  /* background: rgb(21, 20, 20); */
+  height: 800px;
+  width: 500px;
+}
+.logo {
+  height: 90px;
+}
+.logo-box {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.lower-box {
+  margin: 40px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.lower-box div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.lower-box span {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+input {
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
+  background: white;
+  padding-left: 20px;
+  font-size: large;
+  outline: green;
+}
+button {
+  height: 50px;
+  width: 325px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+button:hover {
+  background-color: rgb(56, 52, 52);
+  cursor: pointer;
+}
