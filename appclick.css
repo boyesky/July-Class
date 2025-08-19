@@ -2,29 +2,30 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  /* background-image: url(./assets/appclick.jpg); */
+  background-image: url(./assets/appclick.jpg);
 }
 .whole {
-  /* background: rgb(21, 20, 20); */
-  height: 800px;
-  width: 500px;
+  background: white;
+  height: 100vh;
+  width: 470px;
 }
 .logo {
   height: 90px;
+  margin-top: 110px;
 }
 .logo-box {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-left: 90px;
 }
 .login-box {
   margin: 40px 35px 0 55px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 .login-box p {
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .second-sect {
   display: flex;
@@ -45,7 +46,7 @@ body {
 
 input {
   height: 50px;
-  width: 300px;
+  width: 350px;
   border-radius: 5px;
 
   border: 1px solid #ccc;
@@ -57,14 +58,14 @@ input {
 }
 .second-sect span {
   position: absolute;
-  left: 293px;
+  left: 335px;
   padding: 3px 2px;
   background-color: white;
 }
 
 button {
   height: 50px;
-  width: 325px;
+  width: 370px;
   font-size: large;
   border-radius: 5px;
   background-color: green;
