@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
   /* background-image: url(./assets/appclick.jpg); */
 }
 .whole {
@@ -15,27 +16,38 @@ body {
   margin-top: 100px;
   margin-left: 90px;
 }
-.lower-box {
-  margin: 40px 35px;
+.login-box {
+  margin: 40px 35px 0 55px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 25px;
 }
-.lower-box div {
+.login-box p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.second-sect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+/* .lower-lay {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-.lower-box span {
+} */
+
+/* .input-lay {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  text-align: center;
-}
+/*} */
+
 input {
   height: 50px;
   width: 300px;
   border-radius: 5px;
+
   border: 1px solid #ccc;
   box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
   background: white;
@@ -43,6 +55,13 @@ input {
   font-size: large;
   outline: green;
 }
+.second-sect span {
+  position: absolute;
+  left: 293px;
+  padding: 3px 2px;
+  background-color: white;
+}
+
 button {
   height: 50px;
   width: 325px;
@@ -53,5 +72,19 @@ button {
 }
 button:hover {
   background-color: rgb(56, 52, 52);
+  cursor: pointer;
+}
+.down-box {
+  margin-top: 10px;
+  padding-left: 55px;
+}
+.down-box a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+}
+.down-box a:hover {
+  text-decoration: underline;
   cursor: pointer;
 }
